@@ -1,0 +1,28 @@
+.home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_lotto{
+    font-size: 1.4rem;
+    padding: .8rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin: .8rem 2rem;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+    -webkit-box-shadow: 7px 10px 16px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 16px -12px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 16px -12px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.btn_lotto:hover{
+    background-color: rgb(106, 34, 173);
+}

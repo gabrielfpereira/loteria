@@ -3,8 +3,8 @@ import './App.css'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from './Pages/Home'
-import CheckLottery from './Pages/CheckLottery'
+import Home from './Pages/Home/Home'
+import CheckLottery from './Pages/CheckLottery/CheckLottery'
 
 
 function App() {
