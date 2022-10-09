@@ -1,0 +1,36 @@
+.dozens{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    column-count: 5;
+}
+
+.dozen{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 100%;
+    font-size: 1.3rem;
+    width: 45px;
+    height: 45px;
+    margin: .2rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.include{
+    background-color: crimson;
+}
+
+.btn_incluir{
+    font-size: 1.2rem;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    width: 100%;
+}

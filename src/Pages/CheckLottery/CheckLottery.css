@@ -1,0 +1,53 @@
+.CheckLottery{
+    padding: 16px;
+    text-align: center;
+}
+
+.change_contest_container{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.change_contest_container label{
+    font-size: 1.3rem;
+}
+
+.change_contest{
+    font-size: 1.3rem;
+    width: 80%;
+    text-align: center;
+    padding: .5rem;
+}
+
+.change_contest option{
+    font-size: 1rem;
+    width: 80%;
+}
+
+
+.games_made{
+    margin-top: 16px;
+}
+
+.game{
+    border-bottom: 2px solid gray;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.drawn{
+    background-color: blueviolet;
+    color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+}
