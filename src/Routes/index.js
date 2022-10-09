@@ -1,15 +1,10 @@
-import { useState } from 'react'
-import './App.css'
-
+import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from './Pages/Home'
-import CheckLottery from './Pages/CheckLottery'
+import Home from '../Pages/Home'
+import CheckLottery from '../Pages/CheckLottery'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const Routes = () => {
   return (
     <BrowserRouter>
         <Routes>
@@ -20,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default Routes
